@@ -1,0 +1,20 @@
+{
+  "name": "vercel-monorepo-setup",
+  "version": "1.0.0",
+  "description": "Monorepo experiment",
+  "main": "index.js",
+  "author": "Brenda b",
+  "license": "MIT",
+	"private": true,
+  "workspaces": [
+     "packages/*",
+		 "apps/*"
+  ],
+	"scripts": {
+    "start:my-app": "yarn --cwd apps/my-app start",
+    "deploy:my-apps": "yarn --cwd apps/my-apps deploy"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

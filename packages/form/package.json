@@ -1,0 +1,10 @@
+{
+  "name": "@vercel-monorepo-setup/form",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Brenda b",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel-monorepo-setup/my-design-system-button": "^0.0.0"
+  }
+}
