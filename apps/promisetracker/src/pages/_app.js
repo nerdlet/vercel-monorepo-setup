@@ -6,7 +6,7 @@ import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-import theme from "@/promisetracker/theme/index";
+import theme from "@/promisetracker/theme";
 import SEO from "next-seo.config";
 
 import "leaflet/dist/leaflet.css";
