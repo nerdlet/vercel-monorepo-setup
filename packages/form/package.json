@@ -5,6 +5,6 @@
   "author": "Brenda b",
   "license": "MIT",
   "dependencies": {
-    "@vercel-monorepo-setup/my-design-system-button": "^0.0.0"
+    "@vercel-monorepo-setup/button": "^0.0.0"
   }
 }
