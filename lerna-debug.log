@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'list' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/.bin/lerna'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/cfafrica/Desktop/vercel-monorepo-setup
+3 info versioning independent
+4 error JSONError: Unexpected token / in JSON at position 69 while parsing near '...ersion": "0.1.0",  //"private": true, ...' in apps/my-app/package.json
+4 error     at module.exports (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/parse-json/index.js:26:19)
+4 error     at parse (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/load-json-file/index.js:15:9)

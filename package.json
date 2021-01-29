@@ -5,12 +5,12 @@
   "main": "index.js",
   "author": "Brenda b",
   "license": "MIT",
-	"private": true,
+  "private": true,
   "workspaces": [
-     "packages/*",
-		 "apps/*"
+    "packages/*",
+    "apps/*"
   ],
-	"scripts": {
+  "scripts": {
     "start:my-app": "yarn --cwd apps/my-app start",
     "deploy:my-apps": "yarn --cwd apps/my-apps deploy"
   },
