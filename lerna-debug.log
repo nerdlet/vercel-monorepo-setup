@@ -1,0 +1,18 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@@vercel-monorepo-setup/my-app',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/.bin/lerna',
+0 silly argv   pkg: '@@vercel-monorepo-setup/my-design-system-core'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/cfafrica/Desktop/vercel-monorepo-setup
+3 info versioning independent
+4 error Error: Invalid package name "@": name can only contain URL-friendly characters
+4 error     at invalidPackageName (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/npm-package-arg/npa.js:86:15)
+4 error     at Result.setName (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/npm-package-arg/npa.js:121:11)
+4 error     at new Result (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/npm-package-arg/npa.js:111:23)
+4 error     at resolve (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/npm-package-arg/npa.js:58:15)
+4 error     at npa (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/npm-package-arg/npa.js:52:10)
+4 error     at AddCommand.initialize (/Users/cfafrica/Desktop/vercel-monorepo-setup/node_modules/@lerna/add/index.js:39:17)

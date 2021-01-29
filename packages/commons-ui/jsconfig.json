@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@vercel-monorepo-setup/commons-ui/*": ["./*", ".src"]
+    }
+  },
+  "exclude": ["build", "node_modules"]
+}
